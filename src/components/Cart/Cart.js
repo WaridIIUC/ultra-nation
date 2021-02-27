@@ -6,7 +6,7 @@ const Cart = (props) => {
     //     console.log("Population ", cartItem);
     //     totalPopulation = totalPopulation + cartItem.population;
     // });
-    let totalPopulation = cart.reduce((sum, country) => sum + country.population, 0);
+    let totalPopulation = cart.reduce((sum, country) => sum + country.population, 0);git init
     return (
         <div>
             <h4>Country added: {cart.length}</h4>
